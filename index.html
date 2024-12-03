@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <section id="landing-page">
+        <nav>
+            <div id="logo"><img src="./img/LOGOCOMPETITIONWHITE-removebg-preview.png" id="logo-pic" alt=""></div>
+            <div>
+                <ul>
+                    <li><a href="">Events</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <button class="gradient-btn">Contact Us</button>
+        </nav>
+        <div id="hero-section">
+            <section id="hero-top">
+                <div class="typewriter">
+                    <span id="dynamic-text"></span>
+                </div>
+            </section>
+
+            <div class="text-center">
+                <button id="hero-btn">BUDS x SUPERCOMP</button>
+            </div>
+            <div id="hero-text" class="text-center">
+                Test your skills id reprehenderit illum modi amet doloribus sed ipsum architecto repellat exercitationem.
+            </div>
+        </div>
+
+        <div class="slider-container text-center">
+            <button class="nav-btn left-btn" onclick="slideLeft()">&#10094;</button>
+            <div class="slider">
+                <div class="slider-item">
+                    <div class="image-container">
+                        <img src="./img/cid1.jpg" alt="Image 1">
+                    </div>
+                    <div class="text-container">
+                        <h3>Title 1</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste aliquam dolorum nihil exercitationem hic corrupti. Nesciunt, beatae?</p>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="image-container">
+                        <img src="./img/cid2.jpg" alt="Image 2">
+                    </div>
+                    <div class="text-container">
+                        <h3>Title 2</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste aliquam dolorum nihil exercitationem hic corrupti. Nesciunt, beatae?</p>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="image-container">
+                        <img src="./img/cid3.jpeg" alt="Image 3">
+                    </div>
+                    <div class="text-container">
+                        <h3>Title 3</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste aliquam dolorum nihil exercitationem hic corrupti. Nesciunt, beatae?</p>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="image-container">
+                        <img src="./img/cid4.jpg" alt="Image 4">
+                    </div>
+                    <div class="text-container">
+                        <h3>Title 4</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste aliquam dolorum nihil exercitationem hic corrupti. Nesciunt, beatae?</p>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="image-container">
+                        <img src="./img/cid6.jpeg" alt="Image 5">
+                    </div>
+                    <div class="text-container">
+                        <h3>Title 5</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste aliquam dolorum nihil exercitationem hic corrupti. Nesciunt, beatae?</p>
+                    </div>
+                </div>
+            </div>
+            <button class="nav-btn right-btn" onclick="slideRight()">&#10095;</button>
+        </div>
+    </section>
+
+   <!-- PARTNER SECTION -->
+   <div class="collaborations-section">
+    <div class="collaborations-text">
+        <h2><span class="highlight-text">OUR</span> <span class="colorful-text">PARTNERS</span></h2>
+    </div>
+    <div class="collaborations-slider">
+        <div class="carousel-container">
+            <div class="carousel">
+                <img style="background:transparent;" src="img/our partners/SuperComp logo.svg" alt="Logo 1">
+                <img src="img/our partners/BUDS LOGO (No bg and No text) 1.png" alt="Logo 2">
+                <img src="img/our partners/image 5.png" alt="Logo 3">
+                <img src="img/our partners/image 6.png" alt="Logo 4">
+                <img src="img/our partners/image 7.png" alt="Logo 5">
+                <img src="img/our partners/image 8.png" alt="Logo 6">
+                <img src="img/our partners/image 9.png" alt="Logo 7">
+
+                <img src="img/our partners/SuperComp logo.svg" alt="Logo 1">
+                <img src="img/our partners/BUDS LOGO (No bg and No text) 1.png" alt="Logo 2">
+                <img src="img/our partners/image 5.png" alt="Logo 3">
+                <img src="img/our partners/image 6.png" alt="Logo 4">
+                <img src="img/our partners/image 7.png" alt="Logo 5">
+                <img src="img/our partners/image 8.png" alt="Logo 6">
+                <img src="img/our partners/image 9.png" alt="Logo 7">
+            </div>
+        </div>
+    </div>
+</div>
+
+   <!-- PARTNER SECTION -->
+<!--  -->
+<!-- Steps to Follow Section -->
+<div class="steps-section">
+    <div class="steps-text">
+        <h2><span class="white-text">STEPS</span> <span class="gradient-text">TO FOLLOW</span></h2>
+    </div>
+
+    <!-- Cards Container -->
+    <div class="cards-container">
+        <!-- Card 1 -->
+        <div class="card">
+            <div class="card-image">
+                <img src="img/analyze.gif" alt="Step 1">
+            </div>
+            <div class="card-content">
+                <div class="card-icon">
+                    <i class="fas fa-check-circle"></i> <!-- FontAwesome icon -->
+                </div>
+                <h3>ANALYZE</h3>
+                <p>This is the first step where you plan out your approach and resources needed.</p>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <div class="card-image">
+                <img src="img/brainstorm.gif" alt="Step 2">
+            </div>
+            <div class="card-content">
+                <div class="card-icon">
+                    <i class="fas fa-cogs"></i> <!-- FontAwesome icon -->
+                </div>
+                <h3>BRAINSTORM</h3>
+                <p>This is where the development work happens, turning your plan into reality.</p>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <div class="card-image">
+                <img src="img/cat-computer.gif" alt="Step 3">
+            </div>
+            <div class="card-content">
+                <div class="card-icon">
+                    <i class="fas fa-bullseye"></i> <!-- FontAwesome icon -->
+                </div>
+                <h3>CODE</h3>
+                <p>This step involves testing the solution to ensure everything works as expected.</p>
+            </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card">
+            <div class="card-image">
+                <img src="img/evaluation.gif" alt="Step 4">
+            </div>
+            <div class="card-content">
+                <div class="card-icon">
+                    <i class="fas fa-check"></i> <!-- FontAwesome icon -->
+                </div>
+                <h3>EVALUATE</h3>
+                <p>The final step where the project is launched and delivered to the client or audience.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--  -->
+
+   <!-- FOOTER SECTION -->
+   <div class="main-foot">
+   <footer>
+    <div class="footer-section">
+        <!-- First list: Pages (white color) -->
+        <ul>
+            <li><strong>Pages</strong></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Register Now</a></li>
+        </ul>
+
+        <!-- Second list: Policies -->
+        <div class="poli">
+            <ul>
+                <li><strong>Policies</strong></li>
+                <li>Privacy Policy</li>
+                <li>Terms Policy</li>
+            </ul>
+        </div>
+
+        <!-- Third list: Contact info -->
+        <ul>
+            <li><strong>Contact Us</strong></li>
+            <li>123 123 456</li>
+            <li><a href="mailto:hellocodeinthedark@gmail.com">hello@gmail.com</a></li>
+            <div class="icons">
+                <a href="https://www.linkedin.com" target="_blank"><span class="icon"><i class="fab fa-linkedin"></i></span></a>
+                <a href="https://www.instagram.com" target="_blank"><span class="icon"><i class="fab fa-instagram"></i></span></a>
+                <a href="https://x.com" target="_blank"><span class="icon"><i class="fab fa-twitter"></i></span></a>
+                <a href="https://www.youtube.com" target="_blank"><span class="icon"><i class="fab fa-youtube"></i></span></a>
+            </div>
+            
+        </ul>
+    </div>
+
+    <!-- Add "DARK" text at the bottom of the footer -->
+    <div class="footer-text">
+        <span>D</span>
+        <span>A</span>
+        <span>R</span>
+        <span>K</span>
+    </div>
+    
+</footer>
+</div>
+   <!-- FOOTER SECTION END-->
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
