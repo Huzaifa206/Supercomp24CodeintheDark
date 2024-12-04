@@ -8,8 +8,9 @@
     height: 140vh;
     width: 100%;
     color: white;
-    background-image: url("img/bg\ &\ color\ palette/1st bg.svg");
-    background-position: bottom;
+    background: linear-gradient(to top, #7038FA, #000000, #030014); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
     background-repeat: repeat; /* Prevent tiling */
 }
 
@@ -614,3 +615,4 @@ footer {
         width: 100%;
     }
 }
+
